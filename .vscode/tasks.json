@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build baby shower invitation",
+			"type": "shell",
+			"command": "npm install --no-audit --no-fund && npm run build",
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			]
+		},
+		{
+			"label": "Build baby shower invitation",
+			"type": "shell",
+			"command": "cd /cygdrive/c/Users/Chong/workspace/baby-shower.node && npm install --no-audit --no-fund && npm run build",
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			]
+		}
+	]
+}
